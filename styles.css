@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  height: 570px;
+  width: 750px;
+  border-radius: 0;
+}
+
+img {
+  height: 570px;
+  border-radius: 14px 0px 0px 14px;
+}
+
+.price_container {
+  padding: 15px 30px 20px 40px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0px 14px 14px 0px;
+}
+
+h4 {
+  font-family: Montserrat;
+  font-weight: 500;
+  letter-spacing: 5px;
+  color: hsl(228, 12%, 48%);
+}
+
+h1 {
+  font-family: Fraunces;
+  font-size: 43px;
+}
+
+p {
+  font-family: Montserrat;
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+  padding-right: 40px;
+}
+.price_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2 {
+  font-family: Fraunces;
+  font-size: 42px;
+  color: hsl(158, 36%, 37%);
+}
+
+strike {
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+  margin-right: 60px;
+}
+
+button {
+  height: 60px;
+  width: 300px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: hsl(158, 46%, 22%);
+  color: white;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 85px;
+  padding-right: 80px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: hsl(158, 36%, 37%);
+}
+
+@media (max-width: 860px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .container {
+    margin-top: -170px;
+    flex-direction: column;
+    height: 570px;
+    width: 450px;
+    border-radius: 0;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 14px 14px 0px 0px;
+  }
+  .image_container {
+    height: 300px;
+    width: 450px;
+  }
+
+  .price_container {
+    height: 400px;
+    padding: 10px 30px 25px 40px;
+    border-radius: 0px 0px 14px 14px;
+  }
+
+  h1 {
+    font-size: 40px;
+    margin-top: -10px;
+    line-height: 1;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    margin-top: -15px;
+    line-height: 1.6;
+  }
+
+  .price_section {
+    margin: -22px 0px;
+    padding: -40px;
+  }
+
+  strike {
+    font-size: 16px;
+    margin-right: 140px;
+  }
+
+  button {
+    width: 376px;
+    font-weight: 700;
+    font-size: 17px;
+    padding-right: 120px;
+    padding-left: 120px;
+  }
+}
